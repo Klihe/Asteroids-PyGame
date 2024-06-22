@@ -17,7 +17,7 @@ while running:
     clock.tick(60)
 
     for event in pygame.event.get():
-        if event.type == pygame.QUIT:
+        if event.type == pygame.QUIT or (event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE):
             running = False
 
     game.update(pygame.key.get_pressed(), pygame.time.get_ticks())
