@@ -1,2 +1,6 @@
 __pycache__
+<<<<<<< HEAD
 .vscode
+=======
+*.cpython-311.pyc
+>>>>>>> origin/main
