@@ -22,7 +22,7 @@ python main.py
 
 ## Controls
 
-ESC - quit game
+ESC - escape game
 
 w - up  
 d - down  
